@@ -1,11 +1,10 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<meta name="author" content="Ben Souther" />
-<title>Sample Application</title>
+<title>Devops Project</title>
 </head>
 <body>
-<h2>Sample Application</h2>
+<h2>Welcome to our devops final project</h2>
 <br><br>
 <%  
    Date x = new java.util.Date();

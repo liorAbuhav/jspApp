@@ -1,3 +1,4 @@
+<%! int hour = new java.util.Date().getHours(); %>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -8,17 +9,23 @@
     <h2>Our Devops FINAL PROJECT</h2>
     <br><br>
     
-    <%  
-      Date x = new java.util.Date();
-      if (x.getHours() > 3 && x.getHours() < 12 ) {   
-        <%Good Morning%>
+    
+    <% 
+      if (hour > 3 && hour <= 12) { 
+        %>
+          <p> Good morning Ziv!</p>
+        <%
       }
-      else if (x.getHours() > 12 && x.getHours ()< 18 ) {
-         <%Good Afternoon%>
-      } 
-      else if (x.getHours()> 18 || x.getHours() <3) {
-         <%Good Evening%>
-      } 
+      else if (hour > 12 && hour <= 18) {
+        %>
+          <p> Good afternoon Ziv! </p>
+        <%
+      }
+      else {
+        %>
+          <p> Good evening Ziv </p>
+        <%
+      }
     %>
     
     <font color="gray" size="5"> 

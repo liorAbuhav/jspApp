@@ -5,7 +5,7 @@
     <title>Devops Project</title>
   </head>
   <body>
-    <h1>Lior, Niv and Ori presents: </h1>
+    <h1>Ziv, Lior, Niv and Ori presents: </h1>
     <h2>Our Devops FINAL PROJECT</h2>
     <br><br>
     
